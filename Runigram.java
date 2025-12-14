@@ -44,7 +44,7 @@ public class Runigram {
 				int r = in.readInt();
 				int g = in.readInt();
 				int b = in.readInt();
-				image[i][j] = new Color(r, b, g);
+				image[i][j] = new Color(r, g, b);
 			}
 		}
 		return image;
